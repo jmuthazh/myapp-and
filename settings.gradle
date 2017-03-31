@@ -1,0 +1,1 @@
+include ':app', ':confirmsdk-arm7-release'

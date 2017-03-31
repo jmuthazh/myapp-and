@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.confirm.sample.StartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/fragment_container">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/confirm.io"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/fidelity_logo"
+            android:layout_marginBottom="28dp" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="126dp"
+            android:text="@string/start"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/confirm.io"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:text="@string/confirm.io"
+            android:textAppearance="@style/CodeFont"
+            android:layout_above="@+id/start"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

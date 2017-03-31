@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.confirm.sample.ConsentActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fed_green"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/disagreebtn"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/disagreebtn"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="108dp"
+            android:gravity="left"
+            android:text="@string/disclaimer_msg"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="sans"/>
+
+        <Button
+            android:id="@+id/agreebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="84dp"
+            android:text="@string/agree"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/disagreebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/agreebtn"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/agreebtn"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:text="@string/disagree"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

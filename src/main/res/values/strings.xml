@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Fidelity - Digital ID</string>
+    <string name="facial_results">Facial Results</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip">Zip</string>
+    <string name="dob">DOB :</string>
+    <string name="iss_type">Type</string>
+    <string name="iss_state">State</string>
+    <string name="number">Number</string>
+    <string name="issued">Date Issued</string>
+    <string name="expiration">Expiry :</string>
+    <string name="failure">Failure Reason</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="start">Let\'s get started !</string>
+    <string name="confirm.io">CONFIRM.IO</string>
+    <string name="disagree">Disagree</string>
+    <string name="agree">Agree</string>
+    <string name="processing">Processing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="disclaimer_msg">Fidelity Investments has teamed up with Confirm.io to test documents authenticity and selfie match technology. While we will not retain any images or personal data, you are agreeing to allow us to use the results presented on the final screen.</string>
+    <string name="start_over">Start Over</string>
+    <string name="results">RESULTS</string>
+    <string name="fr_label">FR Score</string>
+
+
+</resources>

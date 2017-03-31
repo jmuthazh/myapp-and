@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.confirm.sample.UploadActivity">
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/percentage_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_a"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="77dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/upload_img_a"
+        android:layout_width="81dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/document_upload_icon"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/processing_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/processing"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+
+</android.support.constraint.ConstraintLayout>
